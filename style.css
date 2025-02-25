@@ -1,0 +1,508 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "Sofia", sans-serif;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+    font-family: "Sofia", sans-serif;
+}
+
+.nav-item a:hover {
+    color: rgb(0, 60, 255);
+}
+
+.navbar-brand img {
+    height: 80px;
+    width: auto; /* Ensure the logo scales properly */
+}
+
+.search {
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(10, 78, 224);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+
+.btn1 {
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(0, 60, 255);
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.4s;
+}
+
+.btn1:hover {
+    background-color: rgb(11, 21, 161);
+}
+
+.bi-bag-check {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    transition: all 0.4s;
+}
+
+.bi-bag-check:hover {
+    color: rgb(0, 17, 255);
+}
+
+.navbar-toggler {
+    font-size: 23px;
+    color: black;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Main Section */
+.main {
+    background: url(image/banner2\ Style\ Your\ Wardrobe.jpeg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 3rem;
+    font-family: "Sofia", sans-serif;
+    color: white;
+}
+
+.main p {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.mbtn1, .mbtn2 {
+    height: 50px;
+    width: 150px;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(0, 26, 255);
+    border-radius: 50px;
+    transition: all 0.4s;
+    margin: 10px;
+}
+
+.mbtn2 {
+    background-color: transparent;
+    border: 1px solid rgb(0, 38, 255);
+}
+
+.mbtn1:hover, .mbtn2:hover {
+    background-color: rgb(12, 107, 233);
+    color: white;
+}
+
+.line {
+    height: 6px;
+    width: 30%;
+    background: rgb(25, 56, 233);
+    display: inline-block;
+}
+
+/* About Section */
+.about {
+    background: url(image/banner3\ on\ red\ wall.jpeg) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.about h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.about p {
+    font-size: 18px;
+    color: white;
+}
+
+/* Welcome Section */
+.welocome {
+    background: rgb(25, 46, 233);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.welocome h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.welocome .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.welocome .card:hover {
+    transform: translateY(-10px);
+}
+
+.welocome i {
+    font-size: 45px;
+    color: rgb(25, 39, 233);
+}
+
+.welocome h2 {
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+
+/* Products Section */
+.product {
+    background: #f8f9fa;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.product h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.product .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.product .card:hover {
+    transform: translateY(-10px);
+}
+
+.product .card-body {
+    border: 1px dashed rgb(163, 156, 156);
+}
+
+.head1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.perl {
+    color: rgb(189, 184, 184);
+}
+
+.btnc {
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(17, 57, 233);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+
+.btnc:hover {
+    background: transparent;
+    border: 1px solid rgb(25, 46, 233);
+    color: rgb(25, 46, 233);
+}
+
+/* Discount Section */
+.discount {
+    background: rgb(21, 35, 233);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.dbtn {
+    height: 50px;
+    width: 150px;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.dbtn:hover {
+    background-color: rgb(156, 136, 95);
+}
+
+/* Store Section */
+.store {
+    background: #f8f9fa;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.store h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.store .card {
+    border-radius: 0;
+    border: none;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.store .card:hover {
+    background-color: rgb(10, 13, 228);
+    color: white;
+}
+
+.store .card:hover .perl {
+    color: white;
+}
+
+/* Seller Section */
+.seller {
+    background: #f8f9fa;
+    padding: 50px 0;
+}
+
+.seller h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.seller .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.seller .card:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact Section */
+.contact {
+    background: url(image/banner1.jpeg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.cbtn {
+    height: 50px;
+    width: 150px;
+    outline: none;
+    border: none;
+    color: black;
+    background: white;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.cbtn:hover {
+    background-color: rgb(10, 78, 224);
+}
+
+/* Footer Section */
+.footer {
+    background: rgb(167, 148, 148);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    color: blue;
+}
+
+.s1 {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 9px;
+    margin-left: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+    color: #f8f9fa;
+}
+
+.s1:hover {
+    background-color: rgb(10, 78, 224);
+    border: none;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .main h1 {
+        font-size: 2rem;
+    }
+
+    .main p {
+        font-size: 16px;
+    }
+
+    .about h1 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .welocome h1 {
+        font-size: 2rem;
+    }
+
+    .product h1 {
+        font-size: 2rem;
+    }
+
+    .store h1 {
+        font-size: 2rem;
+    }
+
+    .seller h1 {
+        font-size: 2rem;
+    }
+
+    .contact h1 {
+        font-size: 2rem;
+    }
+
+    .contact input, .contact textarea {
+        width: 100%;
+    }
+
+    .cbtn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .main h1 {
+        font-size: 1.5rem;
+    }
+
+    .main p {
+        font-size: 14px;
+    }
+
+    .about h1 {
+        font-size: 1.5rem;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .welocome h1 {
+        font-size: 1.5rem;
+    }
+
+    .product h1 {
+        font-size: 1.5rem;
+    }
+
+    .store h1 {
+        font-size: 1.5rem;
+    }
+
+    .seller h1 {
+        font-size: 1.5rem;
+    }
+
+    .contact h1 {
+        font-size: 1.5rem;
+    }
+
+    .contact input, .contact textarea {
+        width: 100%;
+    }
+
+    .cbtn {
+        width: 100%;
+    }
+}
+
+ /* Loader Styles */
+ .loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+
+  /* Keyframe Animation for the loader spinning effect */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
